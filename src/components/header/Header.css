@@ -45,7 +45,7 @@ header {
   position: absolute;
   left: calc(50% - 15rem);
   margin-top: 6rem;
-  border-radius: 13rem 12rem 0 15rem;
+  border-radius: 13rem 12rem 15rem 15rem;
   overflow: hidden;
   padding: 5rem 1.5rem 0rem 1.5rem;
   transform: rotate(40deg);
