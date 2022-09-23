@@ -26,11 +26,11 @@ const About = () => {
               <small>3.7 GPA. Dean's Lister.</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Performance</h5>
               <small>Top senior student</small>
-            </article>
+            </article> */}
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -46,9 +46,9 @@ const About = () => {
             satisfying. More often than not, a curious tinkerer with varying scopes of interest.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          {/* <a href="#contact" className="btn btn-primary">
             Contact me
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

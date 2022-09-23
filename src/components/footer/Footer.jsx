@@ -20,18 +20,18 @@ const Footer = () => {
         <li>
           <a href="#experience">Skills</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#services">Services</a>
-        </li>
+        </li> */}
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Projects</a>
         </li>
         <li>
           <a href="#testimonials">Additional Info</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#contact">Contact</a>
-        </li>
+        </li> */}
       </ul>
 
       <div className="footer__socials">
@@ -46,9 +46,9 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="footer__copyright">
+      {/* <div className="footer__copyright">
         <small>&copy; All rights reserved.</small>
-      </div>
+      </div> */}
     </footer>
   );
 };
