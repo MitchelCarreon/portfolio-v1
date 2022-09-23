@@ -8,7 +8,7 @@ import bucky from "../../assets/comp.jpg";
 const About = () => {
   return (
     <section id="about">
-      <h5>Summary</h5>
+      {/* <h5>Summary</h5> */}
       <h2>About me</h2>
 
       <div className="container about__container">
