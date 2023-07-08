@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <GiDiploma className="about__icon" />
               <h5>Education</h5>
-              <small>3.7 GPA. Dean's Lister.</small>
+              <small style={{margin: 5}}>3.7 GPA. Dean's Lister.</small>
             </article>
 
             {/* <article className="about__card">
@@ -34,15 +34,20 @@ const About = () => {
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
+              <h5>Certifications</h5>
+              <small style={{margin: 5}}>Snowflake and AWS</small>
+            </article>
+
+            {/* <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>5+ Completed</small>
-            </article>
+            </article> */}
           </div>
 
           <p>
-            Highly passionate about topics related to software design
-            principles, web design, mobile app development, machine learning and
-            relational databases. An avid learner who finds trial and error
+            Mostly focused on topics related to ETL implementation and relational databases. Also, passionate about software design
+            principles, web design, and mobile app development. An avid learner who finds trial and error
             satisfying. More often than not, a curious tinkerer with varying scopes of interest.
           </p>
 
